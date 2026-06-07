@@ -10,6 +10,12 @@
 
 </div>
 
+<p align="center">
+	<img src="https://img.shields.io/github/repo-size/aumpatro22/JS_Zero_To_Hero?style=for-the-badge&color=F7DF1E&labelColor=111827" alt="Repo size" />
+	<img src="https://img.shields.io/github/last-commit/aumpatro22/JS_Zero_To_Hero?style=for-the-badge&color=F7DF1E&labelColor=111827" alt="Last commit" />
+	<img src="https://img.shields.io/github/languages/top/aumpatro22/JS_Zero_To_Hero?style=for-the-badge&color=F7DF1E&labelColor=111827" alt="Top language" />
+</p>
+
 This repository is my public log of learning JavaScript from zero to confidence. It holds daily practice, experiments, mini-projects, and notes as I grow.
 
 ## What this repo contains
@@ -27,6 +33,14 @@ This repository is my public log of learning JavaScript from zero to confidence.
 | 1 | [Day-1](./Day-1) | Practice and early JavaScript exercises |
 
 More days will be added as the journey continues.
+
+## Roadmap
+
+- Strengthen JavaScript fundamentals
+- Add DOM and browser API practice
+- Build small interactive projects
+- Practice async JavaScript and fetch requests
+- Keep publishing progress consistently
 
 ## Current workflow
 
