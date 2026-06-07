@@ -1,6 +1,16 @@
+<div align="center">
+
+<img src="./assets/logo.svg" alt="JavaScript Journey logo" width="132" height="132" />
+
 # JavaScript Journey
 
-This repository is my public log of learning JavaScript from zero to confidence. I’m using it to store daily practice, experiments, mini-projects, and notes as I grow.
+<p><strong>Zero to hero, one day at a time.</strong></p>
+
+<img src="./assets/hero.svg" alt="JavaScript Journey hero banner" />
+
+</div>
+
+This repository is my public log of learning JavaScript from zero to confidence. It holds daily practice, experiments, mini-projects, and notes as I grow.
 
 ## What this repo contains
 
@@ -18,6 +28,16 @@ This repository is my public log of learning JavaScript from zero to confidence.
 
 More days will be added as the journey continues.
 
+## Current workflow
+
+I use a small helper script to publish progress to GitHub.
+
+```bash
+node publish.js
+```
+
+The script asks what you worked on, builds a commit message, adds your changes, commits them, and pushes to GitHub.
+
 ## How to run code
 
 Most files can be executed with Node.js:
@@ -25,16 +45,6 @@ Most files can be executed with Node.js:
 ```bash
 node Day-0/basic.js
 ```
-
-## Auto publish workflow
-
-Run the helper script when you want to save your progress to GitHub:
-
-```bash
-node publish.js
-```
-
-The script will ask what you worked on, create a commit message, add your changes, commit them, and push to GitHub.
 
 ## Goals
 

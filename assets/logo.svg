@@ -1,0 +1,21 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="24" y1="24" x2="216" y2="216" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7DF1E"/>
+      <stop offset="1" stop-color="#E5B700"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="58" y1="54" x2="184" y2="186" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="216" height="216" rx="52" fill="url(#g1)"/>
+  <rect x="34" y="34" width="172" height="172" rx="40" fill="url(#g2)"/>
+  <path d="M84 92H112L132 148H104L84 92Z" fill="#F7DF1E"/>
+  <path d="M128 92H156L136 148H108L128 92Z" fill="#F7DF1E"/>
+  <path d="M152 156L140 168" stroke="#F7DF1E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M80 74L68 86" stroke="#F7DF1E" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="74" cy="66" r="8" fill="#F7DF1E"/>
+  <circle cx="166" cy="176" r="8" fill="#F7DF1E"/>
+  <text x="120" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#F7DF1E">JS</text>
+</svg>
