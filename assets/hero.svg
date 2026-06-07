@@ -1,38 +1,35 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F172A"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1F2937"/>
+      <stop stop-color="#050816"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="glow" x1="160" y1="54" x2="1040" y2="366" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F7DF1E" stop-opacity="0.25"/>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 210) scale(250 150)">
+      <stop stop-color="#F7DF1E" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#F7DF1E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="260" y1="60" x2="940" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7DF1E" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#F7DF1E" stop-opacity="0.02"/>
     </linearGradient>
   </defs>
+
   <rect width="1200" height="420" rx="36" fill="url(#bg)"/>
-  <circle cx="184" cy="88" r="66" fill="#F7DF1E" fill-opacity="0.14"/>
-  <circle cx="1018" cy="322" r="102" fill="#F7DF1E" fill-opacity="0.08"/>
-  <path d="M82 316C220 214 366 184 540 192C710 200 832 270 1080 142" stroke="url(#glow)" stroke-width="14" stroke-linecap="round"/>
-  <rect x="72" y="72" width="1056" height="276" rx="28" fill="#0B1220" fill-opacity="0.65" stroke="#334155"/>
-  <rect x="462" y="94" width="276" height="18" rx="9" fill="#F7DF1E"/>
-  <text x="600" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#F8FAFC">JavaScript Journey</text>
-  <text x="600" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#CBD5E1">Daily practice, clean notes, and growing projects from zero to hero.</text>
-  <text x="600" y="234" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#CBD5E1">Build. Break. Learn. Repeat.</text>
-  <g transform="translate(338 258)">
-    <rect x="0" y="0" width="164" height="58" rx="16" fill="#111827" stroke="#374151"/>
-    <rect x="18" y="18" width="54" height="14" rx="7" fill="#F7DF1E"/>
-    <rect x="18" y="38" width="96" height="8" rx="4" fill="#334155"/>
-    <rect x="88" y="18" width="40" height="14" rx="7" fill="#1F2937" stroke="#F7DF1E"/>
-    <text x="108" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#F7DF1E">code</text>
+  <rect x="48" y="48" width="1104" height="324" rx="30" fill="#0B1220" fill-opacity="0.82" stroke="#334155"/>
+  <circle cx="600" cy="210" r="138" fill="url(#halo)"/>
+  <path d="M228 282C334 164 462 124 600 124C738 124 866 164 972 282" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M216 138C320 104 444 88 600 88C756 88 880 104 984 138" stroke="#334155" stroke-width="2" stroke-dasharray="8 10" stroke-linecap="round"/>
+
+  <g transform="translate(454 92)">
+    <circle cx="146" cy="118" r="104" fill="#111827" stroke="#F7DF1E" stroke-width="4"/>
+    <circle cx="146" cy="118" r="76" fill="#0B1220" stroke="#334155"/>
+    <path d="M111 95H139L152 121L166 95H194L170 136L196 181H168L152 151L136 181H108L133 136L111 95Z" fill="#F7DF1E"/>
+    <rect x="56" y="196" width="180" height="16" rx="8" fill="#F7DF1E"/>
+    <rect x="88" y="220" width="116" height="10" rx="5" fill="#334155"/>
   </g>
-  <g transform="translate(698 258)">
-    <rect x="0" y="0" width="164" height="58" rx="16" fill="#111827" stroke="#374151"/>
-    <rect x="18" y="18" width="54" height="14" rx="7" fill="#F7DF1E"/>
-    <rect x="18" y="38" width="96" height="8" rx="4" fill="#334155"/>
-    <rect x="88" y="18" width="40" height="14" rx="7" fill="#1F2937" stroke="#F7DF1E"/>
-    <text x="108" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#F7DF1E">ship</text>
-  </g>
-  <rect x="530" y="326" width="140" height="32" rx="16" fill="#F7DF1E"/>
-  <text x="600" y="347" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#111827">Keep Shipping</text>
+
+  <text x="600" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#F7DF1E" letter-spacing="4">DAY BY DAY</text>
+  <text x="600" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#F8FAFC">JavaScript Journey</text>
+  <text x="600" y="356" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#CBD5E1">Daily practice, clean notes, and growing projects from zero to hero.</text>
 </svg>
