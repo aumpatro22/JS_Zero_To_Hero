@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/logo.svg" alt="JavaScript Journey logo" width="132" height="132" />
+<img src="./assets/logo.svg" alt="JavaScript Journey logo" width="120" height="120" />
 
 # JavaScript Journey
 
 <p><strong>Zero to hero, one day at a time.</strong></p>
 
-<img src="./assets/hero.svg" alt="JavaScript Journey hero banner" />
+<img src="./assets/hero.svg" alt="JavaScript Journey hero banner" width="960" />
 
 </div>
 
