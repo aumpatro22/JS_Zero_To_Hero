@@ -1,36 +1,55 @@
-# 🚀 My JavaScript Journey
+# JavaScript Journey
 
-Welcome to the documentation of my journey learning JavaScript! This repository contains all the code, notes, and exercises I am writing as I master JS from the ground up.
+This repository is my public log of learning JavaScript from zero to confidence. I’m using it to store daily practice, experiments, mini-projects, and notes as I grow.
 
-## 🎯 Goals
-- Understand the core concepts of JavaScript
-- Master DOM manipulation and Web APIs
-- Learn ES6+ features
-- Build interactive projects
-- Explore asynchronous programming and APIs
-- (And much more!)
+## What this repo contains
 
-## 📁 Repository Structure
+- Daily learning folders
+- Small practice programs
+- Notes on syntax, logic, and core concepts
+- Future mini-projects and API experiments
 
-The journey is documented day-by-day:
+## Learning path
 
-| Folder | Topics Covered | 
-| ----- | ---------------- |
-| [Day 0](./Day-0) | Basics, variables, loops, conditions, functions, and operators |
-| [Day 1](./Day-1) | *(Add topic here)* |
+| Day | Folder | Focus |
+| --- | --- | --- |
+| 0 | [Day-0](./Day-0) | Basics, variables, loops, conditions, functions, operators |
+| 1 | [Day-1](./Day-1) | Practice and early JavaScript exercises |
 
-*More days will be added as I progress!*
+More days will be added as the journey continues.
 
-## 🛠️ Tech Stack
-- JavaScript (Node.js & Browser)
-- HTML5 / CSS3 (for web projects)
+## How to run code
 
-## 💡 How to Run
-Most of these files can be run using [Node.js](https://nodejs.org/). 
+Most files can be executed with Node.js:
 
 ```bash
 node Day-0/basic.js
 ```
 
----
-*Consistency is the key to mastery!* ✨
+## Auto publish workflow
+
+Run the helper script when you want to save your progress to GitHub:
+
+```bash
+node publish.js
+```
+
+The script will ask what you worked on, create a commit message, add your changes, commit them, and push to GitHub.
+
+## Goals
+
+- Build a strong JavaScript foundation
+- Learn DOM, events, and browser APIs
+- Practice ES6+ syntax and patterns
+- Understand async JavaScript and promises
+- Create small but useful projects
+
+## Tech stack
+
+- JavaScript
+- Node.js
+- HTML and CSS for browser-based practice
+
+## Progress mindset
+
+Small daily progress beats random big effort. This repo is about consistency, not perfection.
